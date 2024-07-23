@@ -22,7 +22,7 @@ class TaskScheduler:
 if __name__ == "__main__":
     scheduler = TaskScheduler()
 
-    scheduler.add_task("Tas 1", 3)
+    scheduler.add_task("Task1", 3)
     scheduler.add_task("Task 2", 1)
     scheduler.add_task("Task 3", 2)
 
